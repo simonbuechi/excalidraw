@@ -310,8 +310,8 @@ export const actionChangeFontFamily: Action = {
       <ButtonSelect
         group="font-family"
         options={[
-          { value: "Virgil", text: t("labels.handDrawn") },
-          { value: "Helvetica", text: t("labels.normal") },
+          { value: "PatrickHandSC", text: t("labels.handDrawn") },
+          { value: "Roboto Slab", text: t("labels.normal") },
           { value: "Cascadia", text: t("labels.code") },
         ]}
         value={getFormValue(
